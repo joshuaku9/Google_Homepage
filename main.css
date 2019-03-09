@@ -8,9 +8,15 @@
     list-style-type:none;
 }
 
+.rightside button{
+    background-color:#f8f8f8;
+    padding:8px;
+}
+
 li{
     display:inline-block;
     padding:10px;
+    font-size:13px;
 }
 
 a{
@@ -20,19 +26,36 @@ a{
 
 .middle{
     position:fixed;
-    top: 70%;
+    top: 50%;
     left: 50%;
-    width:30em;
+    width:100em;
     height:18em;
     margin-top: -9em; /*set to a negative number 1/2 of your height*/
     margin-left: -15em; /*set to a negative number 1/2 of your width*/
 }
 
 .middle button{
-    margin:10px 30px;
+    margin:11px 4px;
+    min-width:54px;
+    padding:8px;
+    background-color:#f8f8f8;
+}
+
+#search{
+    margin-left:140px;
 }
 
 .middle img{
     display:block;
+    height:92px;
+    width:272px;
+    margin-left:7em;
 }
 
+.middle input{
+    display:block;
+    margin: 20px;
+    width:40em;
+    border-radius:25px;
+    height:50px;
+}
